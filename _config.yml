@@ -4,14 +4,20 @@ theme: jekyll-theme-cayman
 lsi: false
 safe: true
 incremental: false
-markdown: kramdown
+markdown: Pandoc
 highlighter: rouge
+gems:
+  - jekyll-pandoc
 gist:
   noscript: false
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter", "math"]
+pandoc:
+  extensions:
+    - normalize
+    - smart
+    - mathjax
+    - csl: _styles/apa.csl
+    - bibliography: bibliography/references.bib
