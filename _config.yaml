@@ -3,6 +3,7 @@ safe: true
 incremental: false
 markdown: kramdown
 highlighter: rouge
+theme: dinky
 gist:
   noscript: false
 kramdown:
