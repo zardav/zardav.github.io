@@ -4,7 +4,7 @@ theme: jekyll-theme-cayman
 lsi: false
 safe: true
 incremental: false
-markdown: CommonMarkGhPages
+markdown: kramdown
 highlighter: rouge
 gist:
   noscript: false

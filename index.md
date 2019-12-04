@@ -10,7 +10,7 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-What about math? \(\lim_{x\to 0} {\sin x \over x} = 1\)
+What about math? $$\lim_{x\to 0} {\sin x \over x} = 1$$
 
 # Header 1
 
